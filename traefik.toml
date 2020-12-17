@@ -1,0 +1,14 @@
+[accessLog]
+
+[log]
+  level = "INFO"
+
+[providers.redis]
+  endpoints = ["127.0.0.1:6379"]
+
+[providers.file]
+  directory = "/dyn"
+
+[api]
+  insecure = true
+
